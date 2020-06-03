@@ -130,7 +130,13 @@
     </dependency>
     
   </dependencies>
-
+<distributionManagement>
+	<snapshotRepository>
+		<id>jpetstore-snapshot</id>
+		<name>reshmafarheennexus</name>
+		<url>http://40.117.123.236:8081/repository/jpetstore-snapshot/</url>
+        </snapshotRepository>
+</distributionManagement>
   
   <properties>
   <!--  <cargo.maven.containerId>tomcat${tomcat.major-version}x</cargo.maven.containerId>
